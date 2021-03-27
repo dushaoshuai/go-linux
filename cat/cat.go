@@ -137,7 +137,7 @@ func skipOneLine(line string) bool {
 	return false
 }
 
-// printLine prints one line taking into consideration of -n, -b and -E.
+// printLine prints one line taking into consideration of -n, -b, -E and -T.
 // Wrapper of numberNonblankLine(), numberAllLine() and printOneLine().
 func printLine(line string) {
 	// Number nonempty output lines.
