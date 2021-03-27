@@ -96,7 +96,7 @@ func scan(file *os.File) {
 		if skipOneLine(line) {
 			continue
 		}
-		// Print one line taking into consideration of -n and -b.
+		// Print one line taking into consideration of -n, -b, -E and -T.
 		printLine(line)
 	}
 	if err := scanner.Err(); err != nil {
